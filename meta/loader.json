@@ -1,0 +1,20 @@
+{
+  "name": "Krunker JS Loader",
+  "namespace": "https://krunker.io/",
+  "version": "1.0.0",
+  "description": "Pure JavaScript 1:1 replacement for Krunker WASM loader",
+  "match": [
+    "*://krunker.io/*",
+    "*://*.krunker.io/*",
+    "*://proxy.krunk.cc/*"
+  ],
+  "run-at": "document-start",
+  "grant": [
+    "unsafeWindow",
+    "GM_xmlhttpRequest",
+    "GM_getValue",
+    "GM_setValue",
+    "GM_deleteValue",
+    "GM_listValues"
+  ]
+}

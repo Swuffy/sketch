@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "types": ["tampermonkey", "node"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": "src",
+    "strict": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sketch",
+  "author": "The Gaming Gurus",
+  "description": "try to take over the world!",
+  "namespace": "https://krunker.zip",
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=krunker.io",
+  "match": ["https://krunker.io/*", "https://krunker.zip/*/key/*"],
+  "exclude": [
+    "https://krunker.io/social.html*",
+    "https://krunker.io/editor.html*",
+    "https://krunker.io/viewer.html*"
+  ],
+  "antifeature": "ads",
+  "grant": [
+    "unsafeWindow",
+    "GM_getValue",
+    "GM_setValue",
+    "GM_listValues",
+    "GM_deleteValue",
+    "GM_openInTab",
+    "GM_xmlhttpRequest"
+  ],
+  "run-at": "document-start",
+  "noframes": true
+}
