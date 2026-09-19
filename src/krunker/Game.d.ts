@@ -47,6 +47,7 @@ declare class Game {
     thirdPerson?: boolean;
     fiRat?: number;
     movDrP?: number;
+    deltaMlt?: number;
   };
   isSandbox: boolean;
   controls: Controls;
